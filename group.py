@@ -1,15 +1,10 @@
 import gspread
 import pandas as pd
 import streamlit as st
-import numpy as np
 from datetime import datetime
 from datetime import datetime, timedelta
-from openpyxl import load_workbook
 import matplotlib.pyplot as plt
 import seaborn as sns
-import openpyxl
-import warnings
-warnings.filterwarnings('ignore')
 
 gc = gspread.service_account(filename='cred.json')
 
